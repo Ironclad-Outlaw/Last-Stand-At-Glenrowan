@@ -83,7 +83,7 @@
                 pages: PDFViewerApplication.pdfDocument.numPages,
                 page: 1,
                 elevation: 100,
-                duration: 1200,
+                duration: 2400,
                 acceleration: !PdfFlip.isChrome(),
                 when: {
                     missing: function (event, pages) {
